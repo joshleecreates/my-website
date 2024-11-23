@@ -1,0 +1,385 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "dart-sass": {
+        "pkg-path": "dart-sass"
+      },
+      "go": {
+        "pkg-path": "go"
+      },
+      "hugo": {
+        "pkg-path": "hugo"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "dart-sass",
+      "broken": false,
+      "derivation": "/nix/store/f38q9y4w8r8arxsc6na9jbnagyz0ly63-dart-sass-1.80.5.drv",
+      "description": "Reference implementation of Sass, written in Dart",
+      "install_id": "dart-sass",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "dart-sass-1.80.5",
+      "pname": "dart-sass",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/31z5fs53f9gwg2g6b2xa23qw25x0darm-dart-sass-1.80.5",
+        "pubcache": "/nix/store/3zk6a1yjp554g4dvblpgnbp9734sl5va-dart-sass-1.80.5-pubcache"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "dart-sass",
+      "broken": false,
+      "derivation": "/nix/store/zi309hvzscyhww2y85w66jshf0dhdiv7-dart-sass-1.80.5.drv",
+      "description": "Reference implementation of Sass, written in Dart",
+      "install_id": "dart-sass",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "dart-sass-1.80.5",
+      "pname": "dart-sass",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9l4zcjqfgk1277qrjg33877hxksq2wa3-dart-sass-1.80.5",
+        "pubcache": "/nix/store/36pjdac19xm707wacfkf0w2nj7yl2bb5-dart-sass-1.80.5-pubcache"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "dart-sass",
+      "broken": false,
+      "derivation": "/nix/store/mpyi44ii7smh6lc6df5iz998gwq0ldbx-dart-sass-1.80.5.drv",
+      "description": "Reference implementation of Sass, written in Dart",
+      "install_id": "dart-sass",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "dart-sass-1.80.5",
+      "pname": "dart-sass",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/pdappaj1gncb1jkxkcgbd8bzb53jwyxq-dart-sass-1.80.5",
+        "pubcache": "/nix/store/sgn1m93smr6pnf4ij4wwm0nv3l9p90xc-dart-sass-1.80.5-pubcache"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "dart-sass",
+      "broken": false,
+      "derivation": "/nix/store/k4zs523x2cn4scvmlxi0idjshjyp5v3z-dart-sass-1.80.5.drv",
+      "description": "Reference implementation of Sass, written in Dart",
+      "install_id": "dart-sass",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "dart-sass-1.80.5",
+      "pname": "dart-sass",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.80.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1cz4vzwd13r4kd9j0v4kmpp8rgw83byn-dart-sass-1.80.5",
+        "pubcache": "/nix/store/s1wg4zqhaylvn8x9ca3rpg6z24pkagij-dart-sass-1.80.5-pubcache"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/mv8bpnbfg4j1gc7vnsq6glxdnrnz5smr-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qrj2wp6vzfpjfrrlcmr22818zg83fb73-go-1.23.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/w6x5p636f88nx6biff22rv8c0hqj29k4-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dm66qyl19skrwcmk4rb9xcs64xc1d071-go-1.23.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/si6gydplf7ybx7fp0brwzblv8m5awbps-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vkjn6njpz4gy5ma763vh8hh93bgjwycr-go-1.23.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/hr6yjfp34id9pnhbrwfzzr8hmzzrr01a-go-1.23.3.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "go-1.23.3",
+      "pname": "go",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.23.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bavnchxi7v6xs077jxv7fl5rrqc3y87w-go-1.23.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/716sdl712w501dabw2z5bf7957qzc5md-hugo-0.138.0.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "hugo-0.138.0",
+      "pname": "hugo",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.138.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/y7y9d4j9631ldjd14vy2pp7q62k1rcvg-hugo-0.138.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/nv0fzl8kbxlgfi82bpdacn52r5x9k65d-hugo-0.138.0.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "hugo-0.138.0",
+      "pname": "hugo",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.138.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/asmy2y4g6fz99cqc15jiqvw4wwjw89q9-hugo-0.138.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/nrayh2rfnznnnzfx35zri8zbm59nx97l-hugo-0.138.0.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "hugo-0.138.0",
+      "pname": "hugo",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.138.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/52xs7jvpyb7x3jl93p5733h3my56gxrc-hugo-0.138.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/fjjj461n08zkf7wvqrgyvh91qq1ympn9-hugo-0.138.0.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "hugo-0.138.0",
+      "pname": "hugo",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.138.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8z4w9rxkh7f78vg1wj8qyp0j7bd2rd0z-hugo-0.138.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
