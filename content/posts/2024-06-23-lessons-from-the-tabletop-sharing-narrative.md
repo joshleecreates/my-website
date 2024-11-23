@@ -1,15 +1,14 @@
 ---
 author: Josh Lee
 categories:
-- For Developers
+- Lessons from the Tabletop
 date: "2024-06-23T14:30:53Z"
 excerpt: If you’re reading this, you’re probably already familiar with Critical Role
   — By far one of the most popular live streams of tabletop roleplaying. The show’s
   GM, Matt Mercer, has several famous lines, but perhaps the most famous is “How do
   you want to do this?”
-tags:
+series:
 - Lessons from the Tabletop
-- featured
 title: 'Lessons from the Tabletop: Sharing the Narrative'
 url: /sharing-the-narrative/
 ---

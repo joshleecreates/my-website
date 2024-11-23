@@ -9,7 +9,6 @@ excerpt: Ever since I started using Proxmox, I’ve wanted something like a Dock
 tags:
 - nixos
 - proxmox
-- featured
 title: 'NixOS + Proxmox: A Recipe for a Declarative Homelab'
 url: /nixos-proxmox-vm-images/
 ---
@@ -72,7 +71,7 @@ This section imports the QEMU Guest profile, which adds drivers for the virtual 
 
 ### Configuring Hostname and QEMU Guest Service
 
-```nix
+```bash
   networking.hostName = lib.mkDefault "base"; # Provide a default hostname
   services.qemuGuest.enable = lib.mkDefault true; # Enable QEMU Guest for Proxmox
 ```
@@ -83,7 +82,7 @@ The `lib.mkDefault` function makes these values easy to override in other files 
 
 ### Setting Up the Boot Loader
 
-```nix
+```bash
   boot.loader.grub.enable = lib.mkDefault true; # Use the boot drive for GRUB
   boot.loader.grub.devices = [ "nodev" ];
 ```
@@ -92,7 +91,7 @@ Next, I enable the bootloader and configure it to use the boot device instead of
 
 ### Automatically Growing the Partition
 
-```nix
+```bash
   boot.growPartition = lib.mkDefault true;
 ```
 
@@ -100,7 +99,7 @@ This option is critical—it automatically grows the boot partition to match the
 
 ### Enabling Remote Updates
 
-```nix
+```bash
   nix.settings.trusted-users = [ "root" "@wheel" ]; # Allow remote updates
   nix.settings.experimental-features = [ "nix-command" "flakes" ]; # Enable flakes
 ```
@@ -109,7 +108,7 @@ These options allow you to update the host remotely using `nixos-rebuild` as a n
 
 ### Essential Packages
 
-```nix
+```bash
   environment.systemPackages = with pkgs; [
     vim  # for emergencies
     git  # for pulling Nix flakes
@@ -123,7 +122,7 @@ I keep this base list short and add packages as needed for specific templates.
 
 ### Referencing Root Disk by Label
 
-```nix
+```bash
   fileSystems."/" = lib.mkDefault {
     device = "/dev/disk/by-label/nixos";
     autoResize = true;
@@ -138,6 +137,8 @@ Referencing the root disk by label is super useful in VMs where you won’t know
 Lastly, if you want to use this template, you’ll need to modify it with a user and SSH key. I also like to enable passwordless SSH and sudo:
 
 ```nix
+{
+  ...
   security.sudo.wheelNeedsPassword = false; # Don't ask for passwords
   services.openssh = {
     enable = true;
@@ -156,6 +157,7 @@ Lastly, if you want to use this template, you’ll need to modify it with a user
   users.users.your_username.openssh.authorizedKeys.keys = [
     "YOUR SSH PUBLIC KEY"
   ];
+}
 ```
 
 ## Conclusion

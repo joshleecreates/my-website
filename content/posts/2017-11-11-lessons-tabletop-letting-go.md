@@ -8,7 +8,7 @@ excerpt: "Game masters also have an inside joke: “No plot survives contact wit
   players.”\n\nWhen I attempt to drive the plot, dictate the player options and the
   pacing, the players begin to disengage. The same thing happens on teams when a leader
   begins to white-knuckle the steering wheel. \t\t"
-tags:
+series:
 - Lessons from the Tabletop
 title: 'Lessons from the Tabletop: Letting Go'
 url: /lessons-tabletop-letting-go/

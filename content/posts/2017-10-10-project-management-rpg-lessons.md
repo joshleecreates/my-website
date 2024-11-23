@@ -1,10 +1,11 @@
 ---
 author: Josh Lee
 categories:
-- For Developers
-- For Site Owners
 date: "2017-10-10T05:59:13Z"
-tags:
+tags: 
+- Product management
+- Software development
+series:
 - Lessons from the Tabletop
 title: 'Lessons from the Tabletop: Things I''ve Learned about Project Management from
   Dungeons & Dragons'

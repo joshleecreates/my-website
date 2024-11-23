@@ -5,6 +5,9 @@ excerpt: Whether you’re a seasoned speaker or just starting out, this guide wi
   you with tips to help you make the most of your conference talk submission and increase
   your chances of being selected to speak.
 title: Submitting Your First Conference Talk
+tags:
+- Public Speaking
+- CFPs
 url: /submitting-your-first-conference-talk/
 ---
 
