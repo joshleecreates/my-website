@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Josh Lee on the Web</title>
+    <link>http://localhost:1313/tags/git/</link>
+    <description>Recent content in Git on Josh Lee on the Web</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Mar 2019 15:59:08 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using git on Small Teams: Best Practices</title>
+      <link>http://localhost:1313/using-git-on-teams-vcs-best-practices/</link>
+      <pubDate>Fri, 01 Mar 2019 15:59:08 +0000</pubDate>
+      <guid>http://localhost:1313/using-git-on-teams-vcs-best-practices/</guid>
+      <description>&lt;p&gt;There are a &lt;em&gt;lot&lt;/em&gt; of ways to use git to collaborate with other developers. I’ve found the following principles to be useful for keeping my sanity when working with git. My experience has mostly been with small teams of two to six developers, but these principles may apply to any size team. Of course, “best practices” are elusive, and the following is just my established method.&lt;/p&gt;&#xA;&lt;h2 id=&#34;commandments&#34;&gt;&#xA;  Commandments:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#commandments&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Do not commit vendor code.&lt;/li&gt;&#xA;&lt;li&gt;Do not commit compiled code.&lt;/li&gt;&#xA;&lt;li&gt;Do not commit commented-out code — just delete it.&lt;/li&gt;&#xA;&lt;li&gt;Make small commits.&lt;/li&gt;&#xA;&lt;li&gt;Explain the why, not the what, in your commit message.&lt;/li&gt;&#xA;&lt;li&gt;Create a new branch for every task / small feature / bug fix.&lt;/li&gt;&#xA;&lt;li&gt;Rebase instead of merge to resolve conflicts.&lt;/li&gt;&#xA;&lt;li&gt;Use pull requests. Get reviews.&lt;/li&gt;&#xA;&lt;li&gt;Do not commit or push directly to the master branch.&lt;/li&gt;&#xA;&lt;li&gt;Deploy from the master branch to staging.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;master-branch-only-contains-reviewed-code-merged-via-pr&#34;&gt;&#xA;  “Master” branch only contains reviewed code, merged via PR&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#master-branch-only-contains-reviewed-code-merged-via-pr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;When an entire QA department is not available, the best QA gains can be had by ensuring every single line of code is seen by at least 2 developers before being merged into the master branch.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excluded on Josh Lee on the Web</title>
+    <link>http://localhost:1313/tags/excluded/</link>
+    <description>Recent content in Excluded on Josh Lee on the Web</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Nov 2019 08:30:53 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/excluded/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Developer&#39;s Guide to WordPress</title>
+      <link>http://localhost:1313/developers-guide-wordpress/</link>
+      <pubDate>Tue, 19 Nov 2019 08:30:53 +0000</pubDate>
+      <guid>http://localhost:1313/developers-guide-wordpress/</guid>
+      <description>&lt;p&gt;Let’s take a look at the most popular CMS on the planet: &lt;em&gt;WordPress&lt;/em&gt;. If you’re a developer inexperienced with WordPress, some of what you’re about to read will surely make you cringe.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;If you’re a senior engineer who wants to understand the architecture of WordPress, then this guide is for you.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So let’s pull back the curtain and take a look at some of the architecture in WordPress:&lt;/p&gt;&#xA;&lt;h3 id=&#34;posts--one-table-to-rule-them-all&#34;&gt;&#xA;  &lt;strong&gt;Posts — One Table to Rule Them All&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#posts--one-table-to-rule-them-all&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;WordPress was initially built for blogging, and so its core model is called the post. In WordPress, almost everything is a post. The built-in post types besides &lt;code&gt;post&lt;/code&gt; (blog posts) are: &lt;code&gt;page&lt;/code&gt;, &lt;code&gt;attachment&lt;/code&gt;, and &lt;code&gt;link&lt;/code&gt;*.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
