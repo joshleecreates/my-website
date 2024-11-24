@@ -1,0 +1,5 @@
+.post-meta div {
+  display: inline-block;
+  margin-right: 1em;
+  opacity: 0.5;
+}
