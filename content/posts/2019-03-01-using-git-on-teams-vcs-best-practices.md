@@ -59,7 +59,9 @@ Committing vendor code can cause merge conflicts and disparity with packaged lib
 
 ### Don’t commit compiled/transpiled code
 
-Compiled files (usually css, js) are often minified and will cause a merge conflict on every merge unless great care is taken to avoid this. Having the build server re-run compilers ensures consistency between environments. ### Only merge using Pull Requests
+Compiled files (usually css, js) are often minified and will cause a merge conflict on every merge unless great care is taken to avoid this. Having the build server re-run compilers ensures consistency between environments. 
+
+### Only merge using Pull Requests
 
 Merges make for a very messy git history, making it harder to find information about the code. Merges should only happen into master via pull request. If you are working on a feature branch, and there are new commits on master which you would like to include in your branch, use a rebase instead of a merge. With master updated and your feature branch checked out, type `git rebase -i master` — you’ll be prompted to edit the “TODO” using your preferred command line editor. This lets you squash, rename, or delete (drop) commits. 
 

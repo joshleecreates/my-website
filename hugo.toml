@@ -30,7 +30,7 @@ rtl = false
 colorScheme = "auto"
 hideColorSchemeToggle = false
 maxSeeAlsoItems = 5
-customCSS = []
+customCSS = ["css/custom.css"]
 customSCSS = []
 customJS = []
 customRemoteJS = []
@@ -59,6 +59,12 @@ name = "Bluesky"
 icon = "fa-brands fa-bluesky fa-2x"
 weight = 3
 url = "https://bsky.app/profile/joshleecreates.bsky.social"
+
+[[params.social]]
+name = "Mastodon"
+icon = "fa-brands fa-mastodon fa-2x"
+weight = 4
+url = "https://hachyderm.io/@joshleecreates"
 
 [[params.social]]
 name = "LinkedIn"
