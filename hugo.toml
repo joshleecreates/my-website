@@ -35,12 +35,9 @@ customSCSS = []
 customJS = []
 customRemoteJS = []
 
-# If you want to use plausible(https://plausible.io) for analytics, add this section
-# [params.plausibleAnalytics]
-# domain = "example.com"
-# serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
-# outboundLinksTracking = true
-# fileDownloadsTracking = true
+[params.plausibleAnalytics]
+domain = "joshuamlee.com"
+outboundLinksTracking = true
 
 [taxonomies]
 tag = "tags"
