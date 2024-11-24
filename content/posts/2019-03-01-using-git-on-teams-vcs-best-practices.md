@@ -1,7 +1,5 @@
 ---
 author: Josh Lee
-categories:
-- For Developers
 date: "2019-03-01T15:59:08Z"
 excerpt: There are a lot of ways to use git to collaborate with other developers.
   I’ve found the following principles to be useful for keeping my sanity when working

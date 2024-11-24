@@ -1,12 +1,11 @@
 ---
 author: Josh Lee
-categories:
-- For Developers
 date: "2019-03-15T12:28:52Z"
 excerpt: Planning is essential. Plans are useless.
-tags:
+series:
 - Lessons from the Tabletop
-- featured
+categories:
+- Lessons from the Tabletop
 title: 'Lessons from the Tabletop: Know Your Domain'
 url: /rpg-lessons-domain-knowledge/
 ---

@@ -1,13 +1,12 @@
 ---
 author: Josh Lee
-categories:
-- For Developers
-- For Site Owners
 date: "2017-11-11T05:48:20Z"
 excerpt: "Game masters also have an inside joke: “No plot survives contact with the
   players.”\n\nWhen I attempt to drive the plot, dictate the player options and the
   pacing, the players begin to disengage. The same thing happens on teams when a leader
   begins to white-knuckle the steering wheel. \t\t"
+categories:
+- Lessons from the Tabletop
 series:
 - Lessons from the Tabletop
 title: 'Lessons from the Tabletop: Letting Go'

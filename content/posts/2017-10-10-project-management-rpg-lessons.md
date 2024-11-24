@@ -2,9 +2,8 @@
 author: Josh Lee
 categories:
 date: "2017-10-10T05:59:13Z"
-tags: 
-- Product management
-- Software development
+categories:
+- Lessons from the Tabletop
 series:
 - Lessons from the Tabletop
 title: 'Lessons from the Tabletop: Things I''ve Learned about Project Management from

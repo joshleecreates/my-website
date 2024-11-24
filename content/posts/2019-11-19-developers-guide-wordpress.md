@@ -1,12 +1,8 @@
 ---
 author: Josh Lee
-categories:
-- For Developers
 date: "2019-11-19T08:30:53Z"
-excluded: true
 tags:
 - WordPress
-- excluded
 title: A Developer's Guide to WordPress
 url: /developers-guide-wordpress/
 ---
