@@ -8,3 +8,4 @@ params:
 talks:
 - "DevOps is a Foreign Language"
 ---
+{{< youtube EdgNUZoGcSc >}}
