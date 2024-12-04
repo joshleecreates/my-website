@@ -8,4 +8,4 @@ params:
 talks:
 - "Open-Source Observability from Scratch"
 ---
-{{< youtube mtWPvbmlMFw >}}
+{{< youtube lCB-3P2O8I8 >}}
