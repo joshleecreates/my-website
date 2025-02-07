@@ -35,7 +35,7 @@ Managing VMs gets even better. The `nixos-generators` package can convert a Nix 
 For example, you can run:
 
 ```
-nixos-generate -c proxmox -f configuration.nix
+nixos-generate -f proxmox -c configuration.nix
 ```
 
 Where `configuration.nix` is your NixOS configuration file (here's an example [gist](https://gist.github.com/joshleecreates/e6892ca21b0e6b7c24d96ca2a24bf23e)). This command creates a backup image you can upload and deploy to Proxmox.
