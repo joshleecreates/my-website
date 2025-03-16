@@ -34,10 +34,10 @@ customCSS = ["css/custom.css"]
 customSCSS = []
 customJS = []
 customRemoteJS = []
+renderer.unsafe = true
 
-[params.plausibleAnalytics]
-domain = "joshuamlee.com"
-outboundLinksTracking = true
+[params.pagination]
+eventsPerPage = 10
 
 [taxonomies]
 tag = "tags"

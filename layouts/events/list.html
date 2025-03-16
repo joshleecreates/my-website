@@ -12,7 +12,8 @@
     </header>
     {{ .Content }}
     <ul>
-      {{- range .Paginator.Pages -}}
+      {{- $paginator := .Paginate .Pages (.Site.Params.pagination.eventsPerPage | default 10) -}}
+      {{- range $paginator.Pages -}}
         {{- .Render "li" -}}
       {{- end -}}
     </ul>

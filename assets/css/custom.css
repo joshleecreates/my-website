@@ -19,3 +19,30 @@
 .footer ul li a:visited {
   color: white;
 }
+
+/* Styles for event talks */
+.list ul li {
+  flex-wrap: wrap;
+}
+
+.event-talks {
+  width: 100%;
+  padding-left: 23rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1.6rem;
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .event-talks {
+    padding-left: 0;
+  }
+}
+
+.event-talk {
+  display: block;
+  font-style: italic;
+  margin-bottom: 0.3rem;
+}

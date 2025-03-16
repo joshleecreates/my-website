@@ -2,4 +2,11 @@
   <span class="location"></span>
   <span class="date">{{ .Date | dateFormat ("January  2006" ) }}</span>
   <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+  {{ with .Params.talks }}
+  <div class="event-talks">
+    {{ range . }}
+    <span class="event-talk">{{ . }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
 </li>
