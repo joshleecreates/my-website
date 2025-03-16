@@ -3,7 +3,7 @@ author: Josh Lee
 categories:
 - Homelab
 date: "2025-03-16T00:00:00Z"
-excerpt: Continuing our journey into NixOS and Proxmox integration, part 2 explores additional techniques for maintaining a fully declarative homelab environment.
+excerpt: In this post we'll use Tailscale to connect Proxmox VE hosts across the public internet. We'll do this by combining Proxmox SDNs (Software Defined Networks) with Tailscale for overlay networking. 
 tags:
 - nixos
 - proxmox
