@@ -160,3 +160,8 @@ I have the `.internal` tld configured in my tailscale settings to point to this 
 
 Ideally, I'd like to update this to be more automated so that I don't have to update my DNS config every time I add a new VM or Proxmox host. But that's a topic for another post.
 
+**This is Part II in "NixOS+Proxmox"**:
+
+ - [Part I: Building NixOS Images for Proxmox](https://www.joshuamlee.com/nixos-proxmox-vm-images/)  
+ - [Part II: Using NixOS as a Tailnet Router for Proxmox SDNs](https://www.joshuamlee.com/nixos-proxmox-tailscale/)  
+ - [NixOS+Proxmox Homelab Example Repository](https://github.com/joshleecreates/nixos-proxmox)

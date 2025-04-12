@@ -165,3 +165,8 @@ Lastly, if you want to use this template, you’ll need to modify it with a user
 This [gist](https://gist.github.com/joshleecreates/e6892ca21b0e6b7c24d96ca2a24bf23e) is just the start of how I’m using NixOS with Proxmox. I encourage you to clone it and make it your own. You may want to include other services by default, such as Avahi for mDNS or Prometheus exporters.
 
 In the future, I’ll write about automating homelab services with NixOS, including Tailscale, Nginx, Grafana, Prometheus, Docker, Portainer, and more. You can follow me on [LinkedIn](https://www.linkedin.com/in/joshuamlee/) or [Mastodon](https://hachyderm.io/@joshleecreates) for updates.
+
+**This is Part I in "NixOS+Proxmox"**:
+
+ - [Part I: Building NixOS Images for Proxmox](https://www.joshuamlee.com/nixos-proxmox-vm-images/)  
+ - [Part II: Using NixOS as a Tailnet Router for Proxmox SDNs](https://www.joshuamlee.com/nixos-proxmox-tailscale/)  
