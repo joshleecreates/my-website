@@ -8,4 +8,5 @@ params:
 talks:
 - "Where's the Auto in Auto-Instrumentation?"
 - "Open-Source Observability from Scratch"
+- "DevOps is a Foreign Language (Lightning Talk)"
 ---

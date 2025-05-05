@@ -8,6 +8,7 @@ params:
 talks:
 - "Running Databases in Kubernetes the Cloud Native Way"
 - "Modern Application Debugging: An Intro to OpenTelemetry"
+- "DevOps is a Foreign Language (Lightning Talk)"
 ---
 
 # Running Databases in Kubernetes the Cloud Native Way
