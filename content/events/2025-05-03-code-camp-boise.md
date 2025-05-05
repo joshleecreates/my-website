@@ -1,5 +1,5 @@
 ---
-title: "Code Campo Boise"
+title: "Boise Code Camp"
 date: "2025-05-03T00:00:00Z"
 slug: code-camp-boise-25
 params:
