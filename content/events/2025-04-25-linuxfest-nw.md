@@ -25,3 +25,7 @@ Kubernetes is all the rage in enterprise IT today. Your boss just read that data
 - [Creating a ClickHouse Cluster on Raspberry Pis \| CNCF](https://www.cncf.io/blog/2025/04/18/creating-a-clickhouse-cluster-on-raspberry-pis/)
 - [GitHub - Altinity/terraform-aws-eks-clickhouse: Terraform module for creating EKS clusters optimized for ClickHouse with EBS and autoscaling ☁️](https://github.com/Altinity/terraform-aws-eks-clickhouse)
 - [Cloud Native ClickHouse® at Scale: Using the Altinity Kubernetes Operator for ClickHouse \| Webinar - YouTube](https://www.youtube.com/watch?v=sjeL_YC_n6A&t=762s)
+
+## Video
+{{< youtube ZngY9Zbe4zw >}}
+
