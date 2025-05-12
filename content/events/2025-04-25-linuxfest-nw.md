@@ -29,3 +29,5 @@ Kubernetes is all the rage in enterprise IT today. Your boss just read that data
 ## Video
 {{< youtube ZngY9Zbe4zw >}}
 
+# Modern Application Debugging: An Intro to OpenTelemetry
+{{< youtube hnhgXi5Sesw >}}
