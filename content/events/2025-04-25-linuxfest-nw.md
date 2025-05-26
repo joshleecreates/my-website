@@ -5,6 +5,7 @@ slug: linuxfest-nw-25
 params:
   location: "Bellingham, WA"
   eventDate: 2025-04-25T00:00:00Z
+  hasVideo: true
 talks:
 - "Running Databases in Kubernetes the Cloud Native Way"
 - "Modern Application Debugging: An Intro to OpenTelemetry"

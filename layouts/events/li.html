@@ -1,7 +1,17 @@
-<li>
-  <span class="location"></span>
-  <span class="date">{{ .Date | dateFormat ("January  2006" ) }}</span>
-  <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+<div class="event-item">
+  <div class="event-header">
+    <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+    {{ with .Params.eventURL }}
+    <a href="{{ . }}" target="_blank" rel="noopener" class="event-url" title="Event Website">
+      <i class="fa-solid fa-globe" aria-hidden="true"></i>
+    </a>
+    {{ end }}
+    {{ if .Params.hasVideo }}
+    <span class="event-video-icon" title="Video Available">
+      <i class="fa-solid fa-video" aria-hidden="true"></i>
+    </span>
+    {{ end }}
+  </div>
   {{ with .Params.talks }}
   <div class="event-talks">
     {{ range . }}
@@ -9,4 +19,4 @@
     {{ end }}
   </div>
   {{ end }}
-</li>
+</div>

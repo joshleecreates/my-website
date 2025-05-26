@@ -11,12 +11,35 @@
       </h1>
     </header>
     {{ .Content }}
-    <ul>
+    <div class="events-table">
       {{- $paginator := .Paginate .Pages (.Site.Params.pagination.eventsPerPage | default 10) -}}
-      {{- range $paginator.Pages -}}
-        {{- .Render "li" -}}
+      {{- $pages := $paginator.Pages -}}
+      {{- $groupedEvents := dict -}}
+      {{- $sortedDates := slice -}}
+      
+      {{- range $pages -}}
+        {{- $monthYear := .Date | dateFormat "January 2006" -}}
+        {{- $sortDate := .Date | dateFormat "2006-01" -}}
+        {{- if not (in $sortedDates $sortDate) -}}
+          {{- $sortedDates = $sortedDates | append $sortDate -}}
+        {{- end -}}
+        {{- $groupedEvents = merge $groupedEvents (dict $sortDate (dict "display" $monthYear "events" (slice . | append (index (index $groupedEvents $sortDate | default dict) "events" | default slice)))) -}}
       {{- end -}}
-    </ul>
+      
+      {{- $sortedDates = sort $sortedDates "value" "desc" -}}
+      
+      {{- range $sortedDates -}}
+        {{- $dateInfo := index $groupedEvents . -}}
+        <div class="event-row">
+          <div class="event-date">{{ $dateInfo.display }}</div>
+          <div class="event-content">
+            {{- range $dateInfo.events -}}
+              {{- .Render "li" -}}
+            {{- end -}}
+          </div>
+        </div>
+      {{- end -}}
+    </div>
 
     {{ partial "pagination.html" . }}
   </section>

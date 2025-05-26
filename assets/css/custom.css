@@ -20,24 +20,85 @@
   color: white;
 }
 
-/* Styles for event talks */
-.list ul li {
-  flex-wrap: wrap;
+/* Styles for event list */
+.events-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
+.event-row {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.event-date {
+  width: 14rem;
+  min-width: 14rem;
+  text-align: right;
+  padding-right: 1.5rem;
+  font-weight: 500;
+  color: #777; /* Lighter grey */
+}
+
+.event-content {
+  flex: 1;
+}
+
+.event-item {
+  margin-bottom: 1.5rem;
+}
+
+/* Event header styling */
+.event-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+}
+
+body.colorscheme-dark .event-header a {
+  display: inline-block;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+body.colorscheme-dark .event-header a:hover {
+  color: #42a5f5; /* Updated blue on hover */
+  text-decoration: none;
+}
+
+/* Styles for event talks */
 .event-talks {
   width: 100%;
-  padding-left: 23rem;
   margin-top: 0.4rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.8rem;
   font-size: 0.95em;
-  color: #555;
   line-height: 1.5;
 }
 
 @media only screen and (max-width: 768px) {
-  .event-talks {
-    padding-left: 0;
+  .event-row {
+    flex-direction: column;
+  }
+  
+  .event-date {
+    width: 100%;
+    min-width: 100%;
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    white-space: normal;
+  }
+  
+  .event-header {
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: auto;
   }
 }
 
@@ -45,4 +106,29 @@
   display: block;
   font-style: italic;
   margin-bottom: 0.3rem;
+  color: #777; /* Lighter grey to match dates */
+  font-weight: 400;
+}
+
+/* Style for event URL icon */
+.event-url {
+  margin-left: 0.5rem;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.event-url:hover {
+  text-decoration: none;
+}
+
+/* Style for video icon */
+.event-video-icon {
+  margin-left: 0.5rem;
+  font-size: 0.9em;
+  color: #777; /* Always grey */
+  display: inline-flex;
+  align-items: center;
 }
