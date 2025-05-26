@@ -29,6 +29,22 @@
             {{ .Params.location }}
           </span>
         </div>
+        {{ with .Params.eventURL }}
+        <div class="event-website">
+          <span class="event-url-single">
+            <i class="fa-solid fa-globe" aria-hidden="true"></i>
+            <a href="{{ . }}" target="_blank" rel="noopener">{{ $.Title }} Website</a>
+          </span>
+        </div>
+        {{ end }}
+        {{ if .Params.hasVideo }}
+        <div class="event-has-video">
+          <span class="event-video-single">
+            <i class="fa-solid fa-video" aria-hidden="true"></i>
+            Video Available
+          </span>
+        </div>
+        {{ end }}
       </div>
     </header>
 

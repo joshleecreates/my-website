@@ -132,3 +132,26 @@ body.colorscheme-dark .event-header a:hover {
   display: inline-flex;
   align-items: center;
 }
+
+/* Styles for single event page */
+.event-url-single,
+.event-video-single {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.event-url-single a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.event-url-single a:hover {
+  color: #42a5f5;
+  text-decoration: none;
+}
+
+.event-video-single {
+  color: #777;
+}

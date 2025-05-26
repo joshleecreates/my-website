@@ -33,7 +33,7 @@
         <div class="event-row">
           <div class="event-date">{{ $dateInfo.display }}</div>
           <div class="event-content">
-            {{- range $dateInfo.events -}}
+            {{- range (sort $dateInfo.events ".Date" "desc") -}}
               {{- .Render "li" -}}
             {{- end -}}
           </div>
