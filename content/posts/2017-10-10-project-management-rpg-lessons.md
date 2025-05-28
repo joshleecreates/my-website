@@ -43,9 +43,9 @@ As a group we decided that we wanted to tell a story about heroism and saving th
 
 <span style="font-weight: 400">Talk to your team about your organization’s values. This </span><span style="font-weight: 400">can </span><span style="font-weight: 400">be a mission statement, but it doesn’t have to be. What is important is that every member of your team is willing to </span>*<span style="font-weight: 400">embrace and advance </span>*<span style="font-weight: 400">your stated purpose.</span>
 
-**This is Part IV in "Lessons from the Tabletop: Things I've Learned About Project Management from TTRPGS"**:
+**This is Part I in "Lessons from the Tabletop: Things I've Learned About Project Management from TTRPGS"**:
 
- - [Part I: Align on your goals](https://joshuamlee.com/project-management-rpg-lessons/)  
+ - Part I: Align on your goals
  - [Part II: Letting go](https://joshuamlee.com/lessons-tabletop-letting-go/)  
  - [Part III: Know your domain](https://joshuamlee.com/rpg-lessons-domain-knowledge)
  - [Part IV: Sharing the Narrative](https://joshuamlee.com/sharing-the-narrative)

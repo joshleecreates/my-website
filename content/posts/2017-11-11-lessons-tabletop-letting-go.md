@@ -79,9 +79,9 @@ url: /lessons-tabletop-letting-go/
 
 <span style="font-weight: 400">How do you foster an environment for open collaboration? </span>
 
-**This is Part IV in "Lessons from the Tabletop: Things I've Learned About Project Management from TTRPGS"**:
+**This is Part II in "Lessons from the Tabletop: Things I've Learned About Project Management from TTRPGS"**:
 
  - [Part I: Align on your goals](https://joshuamlee.com/project-management-rpg-lessons/)  
- - [Part II: Letting go](https://joshuamlee.com/lessons-tabletop-letting-go/)  
+ - Part II: Letting go
  - [Part III: Know your domain](https://joshuamlee.com/rpg-lessons-domain-knowledge)
  - [Part IV: Sharing the Narrative](https://joshuamlee.com/sharing-the-narrative)

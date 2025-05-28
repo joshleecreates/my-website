@@ -48,9 +48,9 @@ The deeper we understand something, the more we can expand upon it or integrate 
 
 Have a plan from which to deviate.
 
-**This is Part IV in "Lessons from the Tabletop: Things I've Learned About Project Management from TTRPGS"**:
+**This is Part III in "Lessons from the Tabletop: Things I've Learned About Project Management from TTRPGS"**:
 
  - [Part I: Align on your goals](https://joshuamlee.com/project-management-rpg-lessons/)  
  - [Part II: Letting go](https://joshuamlee.com/lessons-tabletop-letting-go/)  
- - [Part III: Know your domain](https://joshuamlee.com/rpg-lessons-domain-knowledge)
+ - Part III: Know your domain
  - [Part IV: Sharing the Narrative](https://joshuamlee.com/sharing-the-narrative)
