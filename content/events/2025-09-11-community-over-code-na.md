@@ -8,5 +8,5 @@ params:
   eventUrl: "https://communityovercode.org/"
 talks:
 - "Where's the Auto in Auto-Instrumentation?"
-- "Tracing the Internals of a Cloud-Native Database"
+- "Tracing a Cloud-Native Database"
 ---
