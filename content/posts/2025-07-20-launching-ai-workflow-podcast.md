@@ -8,7 +8,7 @@ tags:
 - ai
 - automation
 - workflows
-title: 'Launching a New Podcast Limited Series: AI Workflows and the Future of Work'
+title: 'Launching a New Podcast Limited Series: Single Pain (of Glass)'
 url: /single-pain-ai-workflow-podcast-launch/
 ---
 
