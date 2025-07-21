@@ -16,7 +16,7 @@ I'm excited to announce the launch of a new limited-series podcast focused on AI
 
 ## Why This Podcast?
 
-The pace of change has made the future foggy. My co-host (Mya)[https://mya.sh/] and I don't know what it looks like, but we believe:
+The pace of change has made the future foggy. My co-host [Mya](https://mya.sh/) and I don't know what it looks like, but we believe:
 
 - The proliferation of autonomous agents will make it even more important to have authoritative and verifiable sources of truth.
 - The mechanisms we use to share context with and collaborate with LLMs will be one of the most productive areas for advancement within the next 1-2 years.
