@@ -36,6 +36,9 @@ customJS = []
 customRemoteJS = []
 renderer.unsafe = true
 
+[params.plausibleAnalytics]
+  domain = "joshuamlee.com"
+  serverURL = "plausible.io"
 [params.pagination]
 eventsPerPage = 10
 
