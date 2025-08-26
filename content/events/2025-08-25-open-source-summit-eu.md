@@ -18,4 +18,19 @@ He will demonstrate how to instrument and monitor a microservices application ru
 
 By the end of this session, attendees will have a solid understanding of how to implement OpenTelemetry in their projects, enhancing their debugging and observability practices. Join us as we delve into the world of OpenTelemetry, unlocking the capabilities of this powerful technology for your development needs.
 
-## Resources
+## Slides
+[Download Slides](/slides/OSSEU25%20Modern%20Application%20Debugging%20-%20Josh%20Lee.pdf)
+
+## Connect with me:
+[Bluesky](https://bsky.app/profile/joshleecreates.bsky.social)
+[Mastodon](https://hachyderm.io/@joshleecreates)
+[LinkedIn](https://linkedin.com/in/joshuamlee)
+[Altinity Slack](https://altinity.com/slack)
+
+## Additional Resources
+[OpenTelemetry Website](https://opentelemetry.io/)
+[open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo)
+[OTelBin – by Dash0](https://www.otelbin.io/)
+[coroot/coroot](https://github.com/coroot/coroot)
+[OTel Collector Deep Dive & Logging Demo](https://altinity.com/blog/an-introduction-to-the-opentelemetry-collector)
+[All Your O11y in One Place: Exploring ClickHouse as a Unified Telemetry Database. - YouTube](https://www.youtube.com/watch?v=uDY_EsE47sA)
