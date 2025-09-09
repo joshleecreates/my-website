@@ -1,7 +1,7 @@
 ---
 title: "Texas Linux Fest"
 date: "2025-10-04T00:00:00Z"
-slug: devopsdays-philadelphia-25
+slug: texas-linux-fest-25
 params:
   location: "Austin, TX"
   eventDate: 2025-10-04T00:00:00Z
