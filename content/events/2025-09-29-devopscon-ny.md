@@ -21,5 +21,5 @@ talks:
 [Presentation Slides](/slides/fastcheapobservability_devmio.pdf)
 
 # DevOps is a foreign language
-[Presentation Slides](/slides/devsopisaforeignlanguage_devmio.pdf)
+[Presentation Slides](/slides/devopsisaforeignlanguage_devmio.pdf)
 
