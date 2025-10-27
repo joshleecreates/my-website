@@ -1,11 +1,11 @@
 ---
-title: "Texas Linux Fest"
-date: "2025-10-04T00:00:00Z"
-slug: texas-linux-fest-25
+title: "Cloud Native Days Austria"
+date: "2025-10-07T00:00:00Z"
+slug: cnd-austria-25
 params:
-  location: "Austin, TX"
-  eventDate: 2025-10-04T00:00:00Z
-  eventUrl: "https://2025.texaslinuxfest.org/"
+  location: "Vienna, Austria"
+  eventDate: 2025-10-07T00:00:00Z
+  eventUrl: "https://cloudnativedays.at/"
 talks:
-- "Magical Mystery Tour: Roundup of Observability Datastores"
+- "Uncovered: The Hard Truth About OTel's Vendor-Neutrality"
 ---
