@@ -9,3 +9,6 @@ params:
 talks:
 - "O11y in One: ClickHouse as a Unified Telemetry Database"
 ---
+
+# O11y in One: ClickHouse as a Unified Telemetry Database
+[Slides](/slides/DB%20Frontiers%20-%20O11y%20in%20One.pdf)

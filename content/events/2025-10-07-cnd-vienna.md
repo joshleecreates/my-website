@@ -9,3 +9,6 @@ params:
 talks:
 - "Uncovered: The Hard Truth About OTel's Vendor-Neutrality"
 ---
+
+# Uncovered: The Hard Truth About OTel's Vendor-Neutrality
+[Slides](/slides/CND%20Austria%20-%20OTel%20Vendor%20Neutrality.pdf)

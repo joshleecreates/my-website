@@ -18,7 +18,8 @@ talks:
 [Kubernetes Cluster Logging with the OpenTelemetry Collector and ClickHouse® \| Grafana \| Open Source - YouTube](https://youtu.be/UGD_pko-inU?si=0bVozXOgwS1HlvBf)
 [Deep Dive on OpenTelemetry ClickHouse® exporter \| Prometheus \| Grafana \| Time Series Data - YouTube](https://youtu.be/_6Poo1TICLc?si=XGdoZOaRS6m1s4-5)
 [O11y in One: Exploring ClickHouse as a Unified Telemetry Database \| Josh Lee \| SREday London 2025 Q4 - YouTube](https://youtu.be/wGBQU9sykL0?si=4glwBKmjS8bfTTXW)
-[Presentation Slides](/slides/fastcheapobservability_devmio.pdf)
+
+[Slides](/slides/DevOpsCon%20NYC%20-%20Fast%2C%20Cheap%2C%20DIY%20Observability%20with%20Open%20Source%20Analytics%20and%20Visualization.pdf)
 
 # DevOps is a foreign language
 [Presentation Slides](/slides/devopsisaforeignlanguage_devmio.pdf)
