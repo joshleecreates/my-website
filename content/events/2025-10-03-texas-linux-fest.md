@@ -10,3 +10,6 @@ talks:
 
 - "Magical Mystery Tour: Roundup of Observability Datastores"
 ---
+
+# Magical Mystery Tour: Roundup of Observability Datastores
+[Slides](/slides/TXLF%20-%20Magical%20Mystery%20Tour.pdf)
