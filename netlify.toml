@@ -8,3 +8,8 @@ HUGO_THEME = "hugo-coder"
 
 [context.deploy-preview]
 command = "hugo --buildFuture --buildDrafts --baseURL $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "/meet"
+  to = "https://meetings.hubspot.com/joshua702"
+  status = 301
