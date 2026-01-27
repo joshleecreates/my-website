@@ -51,3 +51,5 @@ Heroku is back on the scene with an update to their 12-factor app for the cloud-
 Subscribe to follow along as we explore the intersection of AI, automation, and modern development practices. Each episode will include practical demonstrations, real-world applications, and honest discussions about what works and what doesn't.
 
 Stay tuned for more episodes starting [this friday](https://www.youtube.com/live/u75AsRspfr0?si=5ds-0PDakrU8hIvC)!
+
+You can find all episodes on the [videos page](/videos/).
