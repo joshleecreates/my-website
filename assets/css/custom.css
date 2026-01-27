@@ -155,3 +155,64 @@ body.colorscheme-dark .event-header a:hover {
 .event-video-single {
   color: #777;
 }
+
+/* Video grid styles */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.video-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.video-card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.video-card .video-title {
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  line-height: 1.3;
+}
+
+.video-card .video-event {
+  padding: 0 0.75rem 0.75rem 0.75rem;
+  font-size: 1.1rem;
+  color: #777;
+}
+
+@media only screen and (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .video-card .video-title {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+
+  .video-card .video-event {
+    font-size: 0.75rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+}

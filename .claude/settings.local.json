@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.socallinuxexpo.org)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(xargs:*)",
+      "Bash(devbox run hugo:*)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebSearch",
+      "WebFetch(domain:mya.sh)",
+      "WebFetch(domain:www.joshuamlee.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

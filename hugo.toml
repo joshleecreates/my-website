@@ -4,7 +4,8 @@ defaultContentLanguage = "en"
 title = 'Josh Lee Creates'
 theme = 'hugo-coder'
 
-paginate = 6
+[pagination]
+pagerSize = 6
 enableEmoji = true
 
 [services]
@@ -91,6 +92,11 @@ type = "application/rss+xml"
 name = "Talks"
 weight = 3
 url = "talks/"
+
+[[languages.en.menu.main]]
+name = "Videos"
+weight = 4
+url = "videos/"
 
 [[languages.en.menu.main]]
 name = "Events"

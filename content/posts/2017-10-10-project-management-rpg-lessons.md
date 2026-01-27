@@ -1,6 +1,5 @@
 ---
 author: Josh Lee
-categories:
 date: "2017-10-10T05:59:13Z"
 categories:
 - Lessons from the Tabletop

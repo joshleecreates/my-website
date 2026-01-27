@@ -1,0 +1,51 @@
+{{ define "title" }}
+{{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+<section class="container post">
+  <article>
+    <header>
+      <div class="post-title">
+        <h1 class="title">
+          <a class="title-link" href="{{ .Permalink | safeURL }}">
+            {{ .Title }}
+          </a>
+        </h1>
+      </div>
+    </header>
+
+    <div class="post-content">
+      {{ .Content }}
+
+      {{/* Podcast Section */}}
+      {{ with .Site.Data.podcast }}
+      <h2>{{ .title }}</h2>
+      <p>{{ .description | markdownify }}</p>
+      <div class="video-grid">
+        {{ range .episodes }}
+        <a href="https://www.youtube.com/watch?v={{ .id }}" class="video-card" target="_blank" rel="noopener">
+          <img src="https://img.youtube.com/vi/{{ .id }}/mqdefault.jpg" alt="{{ .title }}">
+          <span class="video-title">{{ .title }}</span>
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{/* Talks Section */}}
+      {{ with .Site.Data.talks }}
+      <h2>{{ .title }}</h2>
+      <p>{{ .description | markdownify }}</p>
+      <div class="video-grid">
+        {{ range .videos }}
+        <a href="https://www.youtube.com/watch?v={{ .id }}" class="video-card" target="_blank" rel="noopener">
+          <img src="https://img.youtube.com/vi/{{ .id }}/mqdefault.jpg" alt="{{ .title }}">
+          <span class="video-title">{{ .title }}</span>
+          {{ with .event }}<span class="video-event">{{ . }}</span>{{ end }}
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </article>
+</section>
+{{ end }}
