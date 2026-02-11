@@ -4,5 +4,10 @@
     "go",
     "dart-sass",
     "hugo"
-  ]
+  ],
+  "shell": {
+    "scripts": {
+      "dev": "hugo server"
+    }
+  }
 }

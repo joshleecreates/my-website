@@ -14,7 +14,7 @@ url: /otel-clickhouse-homelab-monitoring/
 
 Monitoring a homelab shouldn't require a PhD in observability pipelines. Yet somehow, we all end up with a rat's nest of exporters, agents, and databases that barely talk to each other. After years of fighting this complexity, I've landed on the OpenTelemetry Collector as the single tool that ties everything together.
 
-[ClickHouse](https://altinity.com/blog/deploying-single-node-clickhouse-on-small-servers) is the other piece of the puzzle here. I'm definitely biased since I work with ClickHouse daily at my job, but if you look under the hood of just about any modern observability platform from the last few years, you'll probably find a little ClickHouse in there. For me, it provides a unified platform that can store all of my telemetry signals alongside other types of events - a one-stop shop for "real-time" analytics.
+[ClickHouse](https://altinity.com/blog/deploying-single-node-clickhouse-on-small-servers) is the other piece of the puzzle here. I'm definitely biased since I work with ClickHouse daily at my job, but if you look under the hood of just about any modern observability platform from the last few years, you'll probably find a little ClickHouse in there. For me, it provides a unified platform that can store all of my telemetry signals alongside other types of events - a [one-stop shop](https://www.youtube.com/watch?v=wGBQU9sykL0) for "real-time" analytics.
 
 ## What Are We Monitoring?
 
@@ -345,3 +345,5 @@ I love the flexibility and consistency that the OpenTelemetry Collector provides
 - [Deploying Single-Node ClickHouse on Small Servers](https://altinity.com/blog/deploying-single-node-clickhouse-on-small-servers) - How to run ClickHouse on resource-constrained hardware
 - [Kubernetes Cluster Logging with the OpenTelemetry Collector](https://altinity.com/events/kubernetes-cluster-logging-with-the-opentelemetry-collector) - Webinar on collecting cluster logs with OTel
 - [Distributed Tracing with ClickHouse & OpenTelemetry](https://altinity.com/webinarspage/distributed-tracing-with-clickhouse-opentelemetry) - Webinar on tracing with ClickHouse as the backend
+- [O11y in One: ClickHouse as a Unified Observability Backend](https://www.youtube.com/watch?v=wGBQU9sykL0) - Talk on using ClickHouse for all observability signals
+- [OTel in Practice: Homelab Monitoring slides](/files/otel-homelab-monitoring-slides.pdf) - Slides for this blog post

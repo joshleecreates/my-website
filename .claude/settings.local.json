@@ -9,7 +9,9 @@
       "WebFetch(domain:www.youtube.com)",
       "WebSearch",
       "WebFetch(domain:mya.sh)",
-      "WebFetch(domain:www.joshuamlee.com)"
+      "WebFetch(domain:www.joshuamlee.com)",
+      "Bash(ls:*)",
+      "Bash(sort:*)"
     ],
     "deny": [],
     "ask": []
