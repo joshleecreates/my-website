@@ -18,6 +18,8 @@ Monitoring a homelab shouldn't require a PhD in observability pipelines. Yet som
 
 ## What Are We Monitoring?
 
+![Four mini PCs running Proxmox in a vertical rack](/images/otel-homelab/mini-pcs.jpg)
+
 My homelab runs on a collection of MiniPCs—compact, power-efficient, and surprisingly capable. The infrastructure breaks down into three key "domains". Effectively, I am acting as a "platform team" delivering a VM-hosting platform to two tenants: "Josh the developer" and "Josh the self hoster":
 
 **Management & Control Plane**
