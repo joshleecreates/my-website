@@ -42,7 +42,7 @@ The scale isn't massive, but it's enough to matter: 10 Proxmox hosts, and ~20 VM
 
 Everything is managed through infrastructure-as-code:
 - Ansible handles Proxmox node configuration
-- NixOS manages VM deployments
+- [NixOS](/nixos-proxmox-vm-images/) manages VM deployments
 
 This GitOps approach makes working with coding assistants remarkably productive—LLMs can read and modify configuration files directly, and git acts as a checkpoint before I actually apply changes.
 

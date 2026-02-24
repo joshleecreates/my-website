@@ -11,6 +11,8 @@ title: 'NixOS + Proxmox Part 2: Overlay Networking with Tailscale and Proxmox SD
 url: /nixos-proxmox-tailscale/
 ---
 
+> **Note:** I no longer use this setup. This post is kept for reference but the approach described here has been deprecated in my homelab.
+
 In this post we'll use Tailscale to connect Proxmox VE hosts across the public internet. We'll do this by combining Proxmox SDNs (Software Defined Networks) with Tailscale for overlay networking.
 
 ## Prerequisites
