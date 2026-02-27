@@ -9,3 +9,11 @@ params:
 talks:
 - "DevOps is a Foreign Language"
 ---
+
+# DevOps is a Foreign Language
+
+[Slides](/slides/DOND%20-%20Devops%20is%20a%20Foreign%20Language.pdf)
+
+## Resources
+
+- [roadmap.sh](https://roadmap.sh/)
