@@ -1,6 +1,9 @@
 title: "Recorded Talks"
 description: "Conference talks and presentations on OpenTelemetry, observability, DevOps, and cloud-native technologies."
 videos:
+  - id: "A5L6F8wcVnI"
+    title: "Uncovered: The Hard Truth About OTel's Vendor-Neutrality"
+    event: "KCD Warsaw 2025"
   - id: "hnhgXi5Sesw"
     title: "Modern Application Debugging: An Intro to OpenTelemetry"
     event: "LinuxFest Northwest 2025"
