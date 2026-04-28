@@ -11,7 +11,9 @@
       "WebFetch(domain:mya.sh)",
       "WebFetch(domain:www.joshuamlee.com)",
       "Bash(ls:*)",
-      "Bash(sort:*)"
+      "Bash(sort:*)",
+      "WebFetch(domain:video.fosdem.org)",
+      "WebFetch(domain:archive.fosdem.org)"
     ],
     "deny": [],
     "ask": []
