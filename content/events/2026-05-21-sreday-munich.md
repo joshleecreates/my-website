@@ -15,3 +15,5 @@ talks:
 So you finally got your organization to invest in OpenTelemetry. You carefully evaluated observability backends and picked the perfect one. Everything is awesome. Then twelve months later, your costs have skyrocketed and you can’t explain why. What happened?
 
 This talk examines how to emit meaningful telemetry while keeping costs under control, by exploring what to actually instrument, which metrics to focus on, pipeline efficiency with OTel Arrow, sampling, filtering, intentional instrumentation, and schema management and validation with tools like Weaver.
+
+[Resources](https://github.com/otelly-tubbies/otel-playtime-is-over)
