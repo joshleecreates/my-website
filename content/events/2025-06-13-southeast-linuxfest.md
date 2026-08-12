@@ -6,6 +6,7 @@ params:
   location: "Charlotte, NC"
   eventDate: 2025-06-13T00:00:00Z
   eventURL: "https://southeastlinuxfest.org/"
+  hasVideo: true
 talks:
 - "My NixOS-Powered Homelab"
 - "Modern Application Debugging: An Intro to OpenTelemetry"
@@ -21,3 +22,7 @@ talks:
 - [GitHub - joshleecreates/nix-config](https://github.com/joshleecreates/nix-config)
 - [NixOS + Proxmox: A Recipe for a Declarative Homelab · Josh Lee Creates](https://www.joshuamlee.com/nixos-proxmox-vm-images/)
 - [NixOS + Proxmox Part 2: Overlay Networking with Tailscale and Proxmox SDNs · Josh Lee Creates](https://www.joshuamlee.com/nixos-proxmox-tailscale/)
+
+## Modern Application Debugging: An Intro to OpenTelemetry
+
+{{< youtube 43hufiYEA90 >}}

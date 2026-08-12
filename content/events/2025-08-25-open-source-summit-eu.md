@@ -6,11 +6,14 @@ params:
   location: "Amsterdam, NL"
   eventDate: 2025-08-25T00:00:00Z
   eventURL: "https://events.linuxfoundation.org/open-source-summit-europe/"
+  hasVideo: true
 talks:
 - "Modern Application Debugging: An Intro to OpenTelemetry"
 ---
 
 # Modern Application Debugging: An Intro to OpenTelemetry
+
+{{< youtube 2QTWeS8E98k >}}
 
 In this talk, Joshua will share his insights and experiences with OpenTelemetry, an open-source project that offers protocols, APIs, and SDKs for collecting metrics, traces, and logs from applications and services. He will cover the comprehensive toolkit provided by the OpenTelemetry community, including language SDKs, the Collector, and the OTLP formats for metrics, traces, and logs.
 

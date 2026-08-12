@@ -6,6 +6,10 @@ params:
   location: "Indianapolis, Indiana"
   eventURL: "https://openinfra.dev/days"
   eventDate: 2024-10-17T12:00:00
+  hasVideo: true
 talks:
 - "Modern Application Debugging: An Intro to OpenTelemetry"
 ---
+# Modern Application Debugging: An Intro to OpenTelemetry
+
+{{< youtube -I8FyCT40SM >}}
