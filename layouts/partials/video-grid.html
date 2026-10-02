@@ -1,0 +1,9 @@
+<div class="video-grid">
+  {{ range . }}
+  <a href="https://www.youtube.com/watch?v={{ .id }}" class="video-card" target="_blank" rel="noopener">
+    <img src="https://img.youtube.com/vi/{{ .id }}/mqdefault.jpg" alt="{{ .title }}">
+    <span class="video-title">{{ .title }}</span>
+    {{ with .event }}<span class="video-event">{{ . }}</span>{{ end }}
+  </a>
+  {{ end }}
+</div>
