@@ -17,33 +17,33 @@
     <div class="post-content">
       {{ .Content }}
 
-      {{/* Podcast Section */}}
+      {{/* Featured Videos */}}
+      {{ with where .Site.Data.talks.videos "featured" true }}
+      <h2>Featured Videos</h2>
+      {{ partial "video-grid.html" . }}
+      {{ end }}
+
+      {{/* Unevenly Distributed */}}
+      {{ with .Site.Data.unevenly_distributed }}
+      {{ if .episodes }}
+      <h2>{{ .title }}</h2>
+      {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
+      {{ partial "video-grid.html" .episodes }}
+      {{ end }}
+      {{ end }}
+
+      {{/* Single Pain Podcast */}}
       {{ with .Site.Data.podcast }}
       <h2>{{ .title }}</h2>
       <p>{{ .description | markdownify }}</p>
-      <div class="video-grid">
-        {{ range .episodes }}
-        <a href="https://www.youtube.com/watch?v={{ .id }}" class="video-card" target="_blank" rel="noopener">
-          <img src="https://img.youtube.com/vi/{{ .id }}/mqdefault.jpg" alt="{{ .title }}">
-          <span class="video-title">{{ .title }}</span>
-        </a>
-        {{ end }}
-      </div>
+      {{ partial "video-grid.html" .episodes }}
       {{ end }}
 
-      {{/* Talks Section */}}
+      {{/* All Recorded Talks */}}
       {{ with .Site.Data.talks }}
-      <h2>{{ .title }}</h2>
+      <h2>All {{ .title }}</h2>
       <p>{{ .description | markdownify }}</p>
-      <div class="video-grid">
-        {{ range .videos }}
-        <a href="https://www.youtube.com/watch?v={{ .id }}" class="video-card" target="_blank" rel="noopener">
-          <img src="https://img.youtube.com/vi/{{ .id }}/mqdefault.jpg" alt="{{ .title }}">
-          <span class="video-title">{{ .title }}</span>
-          {{ with .event }}<span class="video-event">{{ . }}</span>{{ end }}
-        </a>
-        {{ end }}
-      </div>
+      {{ partial "video-grid.html" .videos }}
       {{ end }}
     </div>
   </article>
