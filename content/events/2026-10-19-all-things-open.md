@@ -23,3 +23,34 @@ And now we all dream of using our data to train our own models; wouldn't that be
 OpenTelemetry is just the beginning of this sea-change. First it solved the problem of massive duplicated effort and lack of interoperability in the instrumentation layer. Now organizations are beginning to adopt the OpenTelemetry Collector as a way to change telemetry destinations in an instant.
 
 But Observability can never be truly vendor-neutral - and open - until the storage layer is open, standardized, and hostable anywhere.
+
+### Talks and articles
+- [Vendor Neutrality in OpenTelemetry](https://www.youtube.com/watch?v=A5L6F8wcVnI)
+- [O11y in One](https://www.youtube.com/watch?v=uDY_EsE47sA)
+
+### Try Altinity Antalya
+- [Getting started with Altinity's Project Antalya](https://altinity.com/blog/getting-started-with-altinitys-project-antalya)
+- [The future has arrived: Parquet on Iceberg finally outperforms MergeTree](https://altinity.com/blog/the-future-has-arrived-parquet-on-iceberg-finally-outperforms-mergetree)
+
+### Documentation
+#### Telemetry
+- [OpenTelemetry](https://opentelemetry.io/docs/)
+- [OTel-Arrow (OTAP)](https://github.com/open-telemetry/otel-arrow)
+- [ClickHouse exporter (OpenTelemetry Collector contrib)](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/clickhouseexporter)
+
+#### Lakehouse
+- [Apache Parquet](https://parquet.apache.org/docs/)
+- [Apache Iceberg](https://iceberg.apache.org/docs/latest/)
+- [PyIceberg](https://py.iceberg.apache.org/)
+- [Apache Polaris](https://polaris.apache.org/)
+- [Apache Arrow](https://arrow.apache.org/docs/)
+- [Arrow ADBC](https://arrow.apache.org/adbc/current/)
+
+#### Databases and storage
+- [ClickHouse](https://clickhouse.com/docs)
+- [Grafana Loki](https://grafana.com/docs/loki/latest/)
+- [VictoriaMetrics](https://docs.victoriametrics.com/)
+- [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/)
+- [VictoriaTraces](https://docs.victoriametrics.com/victoriatraces/)
+- [Prometheus](https://prometheus.io/docs/)
+- [Jaeger](https://www.jaegertracing.io/docs/)
