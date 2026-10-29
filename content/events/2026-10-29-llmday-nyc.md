@@ -16,3 +16,7 @@ talks:
 [Slides](/slides/LLMDay%20-%20Zen%20AI%20Cohabitation%20_%20Embrace%20the%20Slop.pdf)
 
 Our tech lives are surrounded by AI. Everywhere we look: social media posts, videos, blog posts, and code. Companies expect employees to embrace AI, but at what cost? And what's it doing to our mental health? While it's satisfying to create with AI, it feels like we're also losing a bit of our humanity and creativity along the way. In this talk Josh will look at how the world of technology has changed due to the AI boom, and how we can lean on our AI minions to produce meaningful, creative, non-slop work.
+
+*This talk was originally delivered as a keynote at [CND Poland](/events/cnd-poland-26/) with [Adriana Villela](https://github.com/avillela).*
+
+Want to connect? Find me on [LinkedIn](https://www.linkedin.com/in/joshuamlee/).
